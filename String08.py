@@ -7,4 +7,8 @@ def main(first,last):
     Returns:
         str: return answer.
     """
-    return 
+    full_name = last+', '+first
+    return full_name
+
+
+print(main('Zarif','Naxalov'))
